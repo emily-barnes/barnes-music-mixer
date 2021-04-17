@@ -31,11 +31,12 @@ body {
 }
 
 .mixer-board { 
-	width: 600px; 
+	width: 510px; 
 	opacity: 0.85;
-	height: 500px;
+	height: 360px;
 	background-image: url(../images/drop-zone-background.jpg);
 	background-repeat: no-repeat;
+	background-size: 510px 360px;
 }
 
 .puzzle-image {
@@ -61,10 +62,11 @@ body {
 
 /* add padding */
 .drop-zone {
-	width: 170px;
-	height: 180px;
+	width: 150px;
+	height: 160px;
 	border: thin dashed white;
 	display: inline-block;
+	padding: 5px;
 }
 
 /* fix drop zone image styles */
