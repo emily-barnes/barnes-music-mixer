@@ -31,6 +31,21 @@
 		console.log("I dragged this image:", targetID);
 		// put the dragged image into this container
 		event.target.appendChild(document.querySelector(`#${targetID}`));
+
+		document.getElementsByTagName("audio")[0].load(0);
+		document.getElementsByTagName("audio")[0].play(0);
+		document.getElementsByTagName("audio")[1].load(1);
+		document.getElementsByTagName("audio")[1].play(1);
+		document.getElementsByTagName("audio")[2].load(2);
+		document.getElementsByTagName("audio")[2].play(2);
+		document.getElementsByTagName("audio")[3].load(3);
+		document.getElementsByTagName("audio")[3].play(3);
+		document.getElementsByTagName("audio")[4].load(4);
+		document.getElementsByTagName("audio")[4].play(4);
+		document.getElementsByTagName("audio")[5].load(5);
+		document.getElementsByTagName("audio")[5].play(5);
+		document.getElementsByTagName("audio")[6].load(6);
+		document.getElementsByTagName("audio")[6].play(6);
 	}
 
 
@@ -63,10 +78,9 @@
 		zone.addEventListener("drop", dropped);
 	})
 
-	document.getElementsByTagName("audio")[0].load();
-	document.getElementsByTagName("audio")[0].play();
-
 	
+
+
 	// emulate a click on the first bottom button and run the background image function
 	// changeBGImage.call(puzzleSelectors[0]);
 	
