@@ -63,6 +63,10 @@
 		zone.addEventListener("drop", dropped);
 	})
 
+	document.getElementsByTagName("audio")[0].load();
+	document.getElementsByTagName("audio")[0].play();
+
+	
 	// emulate a click on the first bottom button and run the background image function
 	// changeBGImage.call(puzzleSelectors[0]);
 	
